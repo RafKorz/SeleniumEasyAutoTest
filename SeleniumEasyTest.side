@@ -1,0 +1,2122 @@
+{
+  "id": "05741f1a-4143-43d6-91ea-4f8e6c6682a6",
+  "version": "2.0",
+  "name": "SeleniumEasyTest",
+  "url": "https://www.seleniumeasy.com/test/",
+  "tests": [{
+    "id": "e886841a-4687-48be-a263-b0a918c87e29",
+    "name": "AValueOfText1",
+    "commands": [{
+      "id": "a025a2b1-2b20-4e2e-aad6-8fd3e7b33d97",
+      "comment": "",
+      "command": "open",
+      "target": "/test/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1be910f-52d5-4c1d-9f4a-7f5c38481211",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1058x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff5d127d-c66f-49f1-8788-be1ff585c22f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fa65f69-5eac-4c04-88b5-5f0f696ac5b6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Simple Form Demo",
+      "targets": [
+        ["linkText=Simple Form Demo", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Simple Form Demo')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './basic-first-form-demo.html')]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Simple Form Demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98de74e5-b3e9-443b-b736-2e339d4db6b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//div[@id='easycont']/div/div[2]/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'This would be your first example to start with Selenium.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e8c8b38-9796-42dd-8117-0c57147da27c",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//div[@id='easycont']/div/div[2]/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'This would be your first example to start with Selenium.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "678e2e44-e1ec-4120-a2d0-7e47a8584b03",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//div[@id='easycont']/div/div[2]/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'This would be your first example to start with Selenium.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5c44b35-ce26-4801-8093-752674e2d785",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/h3",
+      "targets": [],
+      "value": "This would be your first example to start with Selenium."
+    }, {
+      "id": "fba77f8e-4432-43d0-a507-0b3c139bc38c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "abc46f34-9419-4bed-bcc4-0c8c09b4ba70",
+    "name": "AValueOfText2",
+    "commands": [{
+      "id": "b527bcb7-d4e7-41a5-95b1-e4c8a4911310",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.seleniumeasy.com/test/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68672ad8-d6bd-4a75-b3c3-f32975151d20",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1091x686",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5dff8610-405c-4e95-a067-66f54366ad61",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c7688f7-fca6-4b16-910d-587248d69460",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Checkbox Demo",
+      "targets": [
+        ["linkText=Checkbox Demo", "linkText"],
+        ["css=.open li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Checkbox Demo')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './basic-checkbox-demo.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Checkbox Demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5288c21-44ff-469a-adfd-fac03d893dc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-left",
+      "targets": [
+        ["css=.text-left", "css:finder"],
+        ["xpath=//div[@id='easycont']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ab682c2-8430-46f4-bc25-d8e4a19e712e",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/h3",
+      "targets": [],
+      "value": "This would be a basic example to start with checkboxes using selenium."
+    }, {
+      "id": "fd4c8f6c-84c6-4767-aafb-ee5b07ee277d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8dcce080-bcc2-4a3d-9316-a8c8a7e9bc18",
+    "name": "AValueOfText3",
+    "commands": [{
+      "id": "1a674561-2603-49c6-a1a4-e86943f76c08",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.seleniumeasy.com/test/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1de9e184-bb00-4ce6-91c0-4193aa12ac04",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1091x686",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "369bf49f-0827-41dc-a209-1727e8c54376",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "375f5be3-75f5-458b-a08f-1900f04d7d4b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Radio Buttons Demo",
+      "targets": [
+        ["linkText=Radio Buttons Demo", "linkText"],
+        ["css=.open li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Radio Buttons Demo')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './basic-radiobutton-demo.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Radio Buttons Demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9afdeab2-9935-4c84-8045-f56b07348566",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-left",
+      "targets": [
+        ["css=.text-left", "css:finder"],
+        ["xpath=//div[@id='easycont']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f34d88c-9d50-4940-8b72-23a1a28453f3",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/h3",
+      "targets": [],
+      "value": "This is again simple example to start working with radio buttons using Selenium."
+    }, {
+      "id": "48052ed9-0912-4e0f-bccf-a8c651c107df",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f6e35177-15fe-4b09-b97c-a8b4f3e2a2ea",
+    "name": "AValueOfText4",
+    "commands": [{
+      "id": "7b8075c8-73c6-4d54-a2cd-65cac093c044",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.seleniumeasy.com/test/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3a9f6ca-b538-48a1-a377-627ab8b3ca3c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1225x686",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "288e882c-72c9-4f85-9b88-2333372130f0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99a3866e-9d5f-476c-b027-cc7d5699108b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Select Dropdown List",
+      "targets": [
+        ["linkText=Select Dropdown List", "linkText"],
+        ["css=.open li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Select Dropdown List')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './basic-select-dropdown-demo.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Select Dropdown List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f30f545f-980a-468e-90e5-b4fa15360d4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-left",
+      "targets": [
+        ["css=.text-left", "css:finder"],
+        ["xpath=//div[@id='easycont']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f432a9c-7491-4714-80c7-0fb88a8856b6",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/h3",
+      "targets": [],
+      "value": "This would be your first example on select dropd down list to with Selenium."
+    }, {
+      "id": "79292b7d-838e-4752-a404-86b4772c8c41",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0f9509a2-dbcd-4984-b280-e8b7a7c2a76f",
+    "name": "AValueOfText5",
+    "commands": [{
+      "id": "48bfae69-82a7-48e9-b10d-471d825a9be8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.seleniumeasy.com/test/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34cbd1ba-2342-4c2a-9957-36401d6281f8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1091x686",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2db9ea44-e154-48af-a14c-795b9e130a9d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d5eb225-e64a-48af-8183-3be19f41b5f8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Form Submit",
+      "targets": [
+        ["linkText=Input Form Submit", "linkText"],
+        ["css=.open li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Form Submit')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './input-form-demo.html')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Input Form Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc1f7134-69aa-4541-9f70-2de8c6c1f481",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Input form with validations')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0168199c-0507-45d2-968b-28b3158964e5",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/h2",
+      "targets": [],
+      "value": "Input form with validations"
+    }, {
+      "id": "f48e3ffc-353a-440c-9f5b-eddbef9edf35",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e916ef0a-0925-460d-965b-044d7da95e6a",
+    "name": "AValueOfText6",
+    "commands": [{
+      "id": "c4582310-bc03-45cd-a359-048e4c545185",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.seleniumeasy.com/test/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3f2ce6a-7678-4cda-81ba-4e1b0570e15b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1091x686",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00f5fede-de54-49d5-9aca-10b0587f5505",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed6579c0-7b96-4811-9a46-07617df3d0b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ajax Form Submit",
+      "targets": [
+        ["linkText=Ajax Form Submit", "linkText"],
+        ["css=.open li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Ajax Form Submit')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './ajax-form-submit-demo.html')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ajax Form Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "092f74bc-52d3-4dba-9eb3-1efa8ad8f143",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Ajax Form Submit with Loading icon')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9582170-25ed-4a9e-8e8d-39983a1e1d8c",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/h1",
+      "targets": [],
+      "value": "Ajax Form Submit with Loading icon "
+    }, {
+      "id": "5c7e8394-05d9-4922-9251-b3e2153379a5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ff2abf26-e46b-4bb6-9003-1c36e9a586bf",
+    "name": "AValueOfText7",
+    "commands": [{
+      "id": "fb65dce1-9202-4501-8fd1-b4c30d837f1d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.seleniumeasy.com/test/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48d09e15-0d2c-4ab2-b0f1-e32dd21ba4d6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1091x686",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70aa606e-4065-47ad-9b09-8a8aeddc58dc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff1db271-422a-424c-814f-2feff70aea6f",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a7203b2-ad27-4c51-90d1-70bd4561a8d6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2377277f-cb8c-4247-8687-cd675e0c6787",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afe5ca34-8b17-4b35-83a9-77de932e5fdf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f5c2c03-efc1-41b1-ab41-4285c6e5ba7c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=JQuery Select dropdown",
+      "targets": [
+        ["linkText=JQuery Select dropdown", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'JQuery Select dropdown')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './jquery-dropdown-search-demo.html')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'JQuery Select dropdown')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e22daf8-fb52-401e-9425-f90243be6fe6",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.col-md-7 > .bounceInDown",
+      "targets": [
+        ["css=.col-md-7 > .bounceInDown", "css:finder"],
+        ["xpath=//div[@id='carousel-example-generic']/div/div[2]/div/div/div/h3", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/h3", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e06461ad-6ca6-43ec-af23-2350f6a83f2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-center > .row",
+      "targets": [
+        ["css=.text-center > .row", "css:finder"],
+        ["xpath=//body/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92083a2f-815f-43a4-9d73-e84b12923204",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/h2",
+      "targets": [],
+      "value": "Single Select - Search and Select country"
+    }, {
+      "id": "f026d97e-bfc5-4461-a929-74dc2c97689b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "dbfa4c60-d8ee-482e-8384-3e8388041d85",
+    "name": "BSingleInputFieldTest",
+    "commands": [{
+      "id": "6d568329-2651-4c7f-8b23-250ff0df8d98",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.seleniumeasy.com/test/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c0f33e6-363a-4892-9037-a1cad672f4b0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "996x712",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e93f768-1cca-4a50-9bc3-f576ac06aae9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cd324cb-4edf-4f81-8c1e-bbcf7f79f523",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Simple Form Demo",
+      "targets": [
+        ["linkText=Simple Form Demo", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Simple Form Demo')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './basic-first-form-demo.html')]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Simple Form Demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70041364-afc7-448d-9469-4e8ff4ad6250",
+      "comment": "",
+      "command": "click",
+      "target": "id=user-message",
+      "targets": [
+        ["id=user-message", "id"],
+        ["css=.form-group > #user-message", "css:finder"],
+        ["xpath=//input[@id='user-message']", "xpath:attributes"],
+        ["xpath=//form[@id='get-input']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0b69043-ef72-4339-bdad-52bad00af5c8",
+      "comment": "",
+      "command": "type",
+      "target": "id=user-message",
+      "targets": [
+        ["id=user-message", "id"],
+        ["css=.form-group > #user-message", "css:finder"],
+        ["xpath=//input[@id='user-message']", "xpath:attributes"],
+        ["xpath=//form[@id='get-input']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "selenium"
+    }, {
+      "id": "846cef34-b09c-417f-a5f4-92e90bf83be0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='get-input']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Show Message')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4c65f1f-e3e8-4f00-9f60-8ef535720b91",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"display\"]",
+      "targets": [],
+      "value": "selenium"
+    }, {
+      "id": "4531a6f6-a700-42d3-ac24-21ba190b11d4",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "661a01bd-02cf-41bf-86f3-2c6451f198d3",
+    "name": "BTwoInputFieldsTest",
+    "commands": [{
+      "id": "3ff6569d-c113-4707-880e-324160437bb9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.seleniumeasy.com/test/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd8a57ba-7079-4b90-bdf8-824be5e63468",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "977x712",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf31db95-42ca-48cd-af97-b39c70439542",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd2b4cf2-f60a-42fc-94c1-e535e9dfb757",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Simple Form Demo",
+      "targets": [
+        ["linkText=Simple Form Demo", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Simple Form Demo')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './basic-first-form-demo.html')]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Simple Form Demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3c58cbe-1c5a-4a34-8542-d375a1e793b8",
+      "comment": "",
+      "command": "click",
+      "target": "id=sum1",
+      "targets": [
+        ["id=sum1", "id"],
+        ["css=#sum1", "css:finder"],
+        ["xpath=//input[@id='sum1']", "xpath:attributes"],
+        ["xpath=//form[@id='gettotal']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e063a4a-14d5-4a4e-a496-0b54b4e58977",
+      "comment": "",
+      "command": "type",
+      "target": "id=sum1",
+      "targets": [
+        ["id=sum1", "id"],
+        ["css=#sum1", "css:finder"],
+        ["xpath=//input[@id='sum1']", "xpath:attributes"],
+        ["xpath=//form[@id='gettotal']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "572b0bc9-cace-4f80-8635-ddfd2ec6a5ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=sum2",
+      "targets": [
+        ["id=sum2", "id"],
+        ["css=#sum2", "css:finder"],
+        ["xpath=//input[@id='sum2']", "xpath:attributes"],
+        ["xpath=//form[@id='gettotal']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7368bd9e-5935-401c-96f1-6899a5f02445",
+      "comment": "",
+      "command": "type",
+      "target": "id=sum2",
+      "targets": [
+        ["id=sum2", "id"],
+        ["css=#sum2", "css:finder"],
+        ["xpath=//input[@id='sum2']", "xpath:attributes"],
+        ["xpath=//form[@id='gettotal']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "c504ff7a-322c-463d-9185-f6bf824a2c01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='gettotal']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Get Total')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7492090c-5481-497a-a96c-faf953e1931a",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//*[@id=\"displayvalue\"]",
+      "targets": [],
+      "value": "5"
+    }, {
+      "id": "9ba2ec95-967d-4c33-8bae-1ed278718338",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6d3835e7-e5dd-474a-b854-91eb23e3b92a",
+    "name": "CheckBoxTest",
+    "commands": [{
+      "id": "f20faf07-df52-4a78-9038-60a1c224d9ee",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.seleniumeasy.com/test/basic-checkbox-demo.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00be3607-50ce-4aee-8911-da16291258ee",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1201x713",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca944992-1d19-417a-8046-0f71b1ce563f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b884729-56b1-4f81-9ac8-ccf204e1111b",
+      "comment": "",
+      "command": "assertNotChecked",
+      "target": "xpath=//*[@id=\"isAgeSelected\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba42e132-cc92-4f44-afcb-341be9bc0f49",
+      "comment": "",
+      "command": "assertNotChecked",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[2]/div[2]/div[1]/label/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a11e2306-a08d-489e-af3c-683e20229dcb",
+      "comment": "",
+      "command": "assertNotChecked",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[2]/div[2]/div[2]/label/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b111b5e8-12ff-46be-bc3f-ef975beba723",
+      "comment": "",
+      "command": "assertNotChecked",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[2]/div[2]/div[3]/label/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0009b0e6-6e7b-4d51-a93b-4a580bb42b66",
+      "comment": "",
+      "command": "assertNotChecked",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[2]/div[2]/div[4]/label/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df88b516-3f0b-45a2-ad59-47eba0e0866f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Checkbox Demo",
+      "targets": [
+        ["linkText=Checkbox Demo", "linkText"],
+        ["css=.open li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Checkbox Demo')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './basic-checkbox-demo.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Checkbox Demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0599c90-7531-4609-9641-33775c55517e",
+      "comment": "",
+      "command": "click",
+      "target": "id=check1",
+      "targets": [
+        ["id=check1", "id"],
+        ["css=#check1", "css:finder"],
+        ["xpath=//input[@id='check1']", "xpath:attributes"],
+        ["xpath=//div[@id='easycont']/div/div[2]/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f9cf195-f64d-47c2-bf51-ad642576f010",
+      "comment": "",
+      "command": "click",
+      "target": "id=isAgeSelected",
+      "targets": [
+        ["id=isAgeSelected", "id"],
+        ["css=#isAgeSelected", "css:finder"],
+        ["xpath=//input[@id='isAgeSelected']", "xpath:attributes"],
+        ["xpath=//div[@id='easycont']/div/div[2]/div/div[2]/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39b06d70-ebc4-4b18-a2cc-af0a315e492a",
+      "comment": "",
+      "command": "assertChecked",
+      "target": "xpath=//*[@id=\"isAgeSelected\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e385dc0-f6de-47be-b349-8edddffc925f",
+      "comment": "",
+      "command": "assertChecked",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[2]/div[2]/div[1]/label/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e1157b7-ecb0-47d5-ab07-5f5a6b3c31fe",
+      "comment": "",
+      "command": "assertChecked",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[2]/div[2]/div[2]/label/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e838910f-1253-42dd-973e-8dbc64897b82",
+      "comment": "",
+      "command": "assertChecked",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[2]/div[2]/div[3]/label/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14ebec8b-2ad3-4af7-873b-543efd5fd7fe",
+      "comment": "",
+      "command": "assertChecked",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[2]/div[2]/div[4]/label/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92f21d70-78c7-4d5b-9349-5d5a636bd881",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "33969297-089d-43e8-99bf-c401bc45b4d5",
+    "name": "DemoRadioTest",
+    "commands": [{
+      "id": "69004c00-9cde-4f94-8cd4-0d834e232ca0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.seleniumeasy.com/test/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ecfdaa64-d653-400d-a050-55e12bd8e5cd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1011x713",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3fcdfd6-73b6-40a6-aec0-9bbd1b426020",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbb20fa5-dc7c-4e5d-9fbb-ef4ef0e013b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Radio Buttons Demo",
+      "targets": [
+        ["linkText=Radio Buttons Demo", "linkText"],
+        ["css=.open li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Radio Buttons Demo')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './basic-radiobutton-demo.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Radio Buttons Demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbe0ec7a-2bd5-4c6a-859c-555f2c4004c8",
+      "comment": "",
+      "command": "verifyNotChecked",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[1]/div[2]/label[1]/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7aeb23d-7a49-4aaa-ae80-49f807314975",
+      "comment": "",
+      "command": "verifyNotChecked",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[1]/div[2]/label[2]/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bde1041-4799-4da1-bca6-ec788ef0590c",
+      "comment": "",
+      "command": "verifyNotChecked",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[2]/div[2]/div[1]/label[1]/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a30835b-18bd-447f-a89d-9d970834afe4",
+      "comment": "",
+      "command": "verifyNotChecked",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[2]/div[2]/div[1]/label[2]/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d4c31c8-469c-4ae7-bdfd-df794db808ad",
+      "comment": "",
+      "command": "verifyNotChecked",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[2]/div[2]/div[2]/label[1]/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb9a6aaa-9b72-4c9f-a5d8-ac48ead19762",
+      "comment": "",
+      "command": "verifyNotChecked",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[2]/div[2]/div[2]/label[2]/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1114f2d7-2b11-41fd-b705-17bcc93d66bb",
+      "comment": "",
+      "command": "verifyNotChecked",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[2]/div[2]/div[2]/label[3]/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "adc75e7d-2a6e-496d-86b4-89e3b06a3bf8",
+      "comment": "",
+      "command": "click",
+      "target": "name=optradio",
+      "targets": [
+        ["name=optradio", "name"],
+        ["css=.panel-body > .radio-inline:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='optradio']", "xpath:attributes"],
+        ["xpath=//div[@id='easycont']/div/div[2]/div/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8e2d9cb-0188-40f1-8889-ee40ab60a401",
+      "comment": "",
+      "command": "click",
+      "target": "name=gender",
+      "targets": [
+        ["name=gender", "name"],
+        ["css=.panel-body > div:nth-child(2) > .radio-inline:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='gender']", "xpath:attributes"],
+        ["xpath=//div[@id='easycont']/div/div[2]/div[2]/div[2]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d5edf56-3fda-4c63-8318-862c96625dd7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.radio-inline:nth-child(4) > input",
+      "targets": [
+        ["css=.radio-inline:nth-child(4) > input", "css:finder"],
+        ["xpath=(//input[@name='ageGroup'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='easycont']/div/div[2]/div[2]/div[2]/div[2]/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd13d321-e282-4830-8e96-b6f35882ee9d",
+      "comment": "",
+      "command": "click",
+      "target": "id=buttoncheck",
+      "targets": [
+        ["id=buttoncheck", "id"],
+        ["css=#buttoncheck", "css:finder"],
+        ["xpath=//button[@id='buttoncheck']", "xpath:attributes"],
+        ["xpath=//div[@id='easycont']/div/div[2]/div/div[2]/p[2]/button", "xpath:idRelative"],
+        ["xpath=//p[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Get Checked value')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "efa9c3e2-0101-4be9-a42c-6b5e95ffe985",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(5)",
+      "targets": [
+        ["css=.btn:nth-child(5)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='easycont']/div/div[2]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Get values')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86405367-2b0e-4035-b5f9-b15d123a8760",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[1]/div[2]/p[3]",
+      "targets": [],
+      "value": "Radio button 'Male' is checked"
+    }, {
+      "id": "78292c3e-b4e0-4e2d-b30f-24d48f894322",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[2]/div[2]/p[2]",
+      "targets": [],
+      "value": "Sex : Male\\nAge group: 15 - 50"
+    }, {
+      "id": "b5c6c81f-0994-463d-926e-073b95a75073",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn:nth-child(5)",
+      "targets": [
+        ["css=.btn:nth-child(5)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='easycont']/div/div[2]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Get values')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1627db30-89ad-4640-8da2-189536d5dab6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn:nth-child(5)",
+      "targets": [
+        ["css=.btn:nth-child(5)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='easycont']/div/div[2]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Get values')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc795a32-0bc1-40a5-9490-e2672acbc9d8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1c54cee0-80cf-424a-83c9-6c369543530b",
+    "name": "DropdownListTest",
+    "commands": [{
+      "id": "76d94573-bd89-46c3-b3ad-fb9c709784fb",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.seleniumeasy.com/test/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32adfe03-db5b-46a6-b10f-270b490423fb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x715",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6123611-cdd6-483c-b50a-ef2f9f242424",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f08f53e-b229-4ce3-9f79-50d870605b01",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Select Dropdown List",
+      "targets": [
+        ["linkText=Select Dropdown List", "linkText"],
+        ["css=.open li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Select Dropdown List')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './basic-select-dropdown-demo.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Select Dropdown List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "663a7f8b-eee0-4866-b99d-333cf8426a43",
+      "comment": "",
+      "command": "click",
+      "target": "id=select-demo",
+      "targets": [
+        ["id=select-demo", "id"],
+        ["css=#select-demo", "css:finder"],
+        ["xpath=//select[@id='select-demo']", "xpath:attributes"],
+        ["xpath=//div[@id='easycont']/div/div[2]/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "895278e9-533f-4282-bf65-d89d4bfb2565",
+      "comment": "",
+      "command": "select",
+      "target": "id=select-demo",
+      "targets": [],
+      "value": "label=Saturday"
+    }, {
+      "id": "0f970706-db6c-4fd5-8558-314721563cd8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#select-demo > option:nth-child(8)",
+      "targets": [
+        ["css=#select-demo > option:nth-child(8)", "css:finder"],
+        ["xpath=//option[@value='Saturday']", "xpath:attributes"],
+        ["xpath=//select[@id='select-demo']/option[8]", "xpath:idRelative"],
+        ["xpath=//option[8]", "xpath:position"],
+        ["xpath=//option[contains(.,'Saturday')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ea53e3a-8de7-4b66-ba1b-9be03094d9b3",
+      "comment": "",
+      "command": "addSelection",
+      "target": "id=multi-select",
+      "targets": [
+        ["id=multi-select", "id"],
+        ["name=States", "name"],
+        ["css=#multi-select", "css:finder"],
+        ["xpath=//select[@id='multi-select']", "xpath:attributes"],
+        ["xpath=//div[@id='easycont']/div/div[2]/div[2]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/select", "xpath:position"]
+      ],
+      "value": "label=Texas"
+    }, {
+      "id": "2c72632c-ca3d-4a3d-8c91-6e3942ca6597",
+      "comment": "",
+      "command": "click",
+      "target": "id=printAll",
+      "targets": [
+        ["id=printAll", "id"],
+        ["css=#printAll", "css:finder"],
+        ["xpath=//button[@id='printAll']", "xpath:attributes"],
+        ["xpath=//div[@id='easycont']/div/div[2]/div[2]/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Get All Selected')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15c9223d-407c-40c3-84f5-81f468de605e",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[1]/div[2]/p[2]",
+      "targets": [],
+      "value": "Day selected :- Saturday"
+    }, {
+      "id": "56d71535-21e9-4b25-846c-a7be2037bff0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "701ca2a4-5269-4292-8a5c-d7f8ff1fd0bd",
+    "name": "E_AjaxFormSubmitTest",
+    "commands": [{
+      "id": "c34689fe-7044-426b-81b7-721699f80eea",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.seleniumeasy.com/test/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "081e9e48-0ee6-43da-9fcd-cdc3f718e055",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x715",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6b7242d-8294-4d3c-8dd5-bc71f52f22c6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26332722-94cd-4574-9e64-e4438bf50cb2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ajax Form Submit",
+      "targets": [
+        ["linkText=Ajax Form Submit", "linkText"],
+        ["css=.open li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Ajax Form Submit')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './ajax-form-submit-demo.html')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ajax Form Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fc8eaa1-8721-44d2-8661-518dad7419c4",
+      "comment": "",
+      "command": "click",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//form[@id='frm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccae96a4-f9d5-402b-bf9f-8600c9153f91",
+      "comment": "",
+      "command": "type",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//form[@id='frm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Rafał"
+    }, {
+      "id": "62cb113b-9646-4a68-b411-18334d566cdc",
+      "comment": "",
+      "command": "type",
+      "target": "id=description",
+      "targets": [
+        ["id=description", "id"],
+        ["css=#description", "css:finder"],
+        ["xpath=//textarea[@id='description']", "xpath:attributes"],
+        ["xpath=//form[@id='frm']/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "abc"
+    }, {
+      "id": "048bf756-df86-49a7-a8a5-44b9c5fc728f",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-submit",
+      "targets": [
+        ["id=btn-submit", "id"],
+        ["name=btn-submit", "name"],
+        ["css=#btn-submit", "css:finder"],
+        ["xpath=//input[@id='btn-submit']", "xpath:attributes"],
+        ["xpath=//div[@id='submit-control']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce298dde-b543-4816-a29e-c8fc4340796f",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//*[@id=\"btn-submit\"]",
+      "targets": [],
+      "value": "isbuttonvisible"
+    }, {
+      "id": "7c83f48b-c527-4eda-8f7d-c762ef60193c",
+      "comment": "",
+      "command": "verifyElementNotPresent",
+      "target": "xpath=//*[@id=\"btn-submit\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e41d3373-05f6-4d56-94f4-1fc223b146db",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2ab50c25-46a6-4239-ae3c-e9e434a828cf",
+    "name": "F_JQuerySelectDropdown",
+    "commands": [{
+      "id": "66f401e8-c725-45cb-ba15-a97581242790",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.seleniumeasy.com/test/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c80c2063-fcb6-45ec-b1db-7040a42cdba5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x718",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20e2787e-226f-4451-ac6d-560df86d52ae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3723a44-93b3-4cb9-b4fa-1406f5b8ae70",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=JQuery Select dropdown",
+      "targets": [
+        ["linkText=JQuery Select dropdown", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'JQuery Select dropdown')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './jquery-dropdown-search-demo.html')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'JQuery Select dropdown')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e1d77f5-32d5-495b-8e3f-848efff604d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select2-container--below .select2-selection__arrow",
+      "targets": [
+        ["css=.select2-container--below .select2-selection__arrow", "css:finder"],
+        ["xpath=//span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9baebc2a-53eb-4a7f-b818-b2a5960aee6c",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=select2-country-results",
+      "targets": [
+        ["id=select2-country-results", "id"],
+        ["css=#select2-country-results", "css:finder"],
+        ["xpath=//ul[@id='select2-country-results']", "xpath:attributes"],
+        ["xpath=//span[2]/ul", "xpath:position"]
+      ],
+      "value": "285.75,150.39999389648438"
+    }, {
+      "id": "0b68284f-ffb9-470e-9190-f00bdaf60720",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=select2-country-results",
+      "targets": [
+        ["id=select2-country-results", "id"],
+        ["css=#select2-country-results", "css:finder"],
+        ["xpath=//ul[@id='select2-country-results']", "xpath:attributes"],
+        ["xpath=//span[2]/ul", "xpath:position"]
+      ],
+      "value": "285.75,150.39999389648438"
+    }, {
+      "id": "1f7e6a42-a3f6-458c-b7be-7e96085944e1",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=select2-country-results",
+      "targets": [
+        ["id=select2-country-results", "id"],
+        ["css=#select2-country-results", "css:finder"],
+        ["xpath=//ul[@id='select2-country-results']", "xpath:attributes"],
+        ["xpath=//span[2]/ul", "xpath:position"]
+      ],
+      "value": "285.75,150.39999389648438"
+    }, {
+      "id": "1b793510-f9c0-4035-a0cb-7d3681c9195e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cbfc8e1-0743-4d9b-b3c3-888966f735c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=select2-aeqt-container",
+      "targets": [
+        ["id=select2-aeqt-container", "id"],
+        ["css=#select2-aeqt-container", "css:finder"],
+        ["xpath=//span[@id='select2-aeqt-container']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div[2]/span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45467169-3d16-4a15-8289-ca2eec9e35d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=files",
+      "targets": [
+        ["id=files", "id"],
+        ["name=files", "name"],
+        ["css=#files", "css:finder"],
+        ["xpath=//select[@id='files']", "xpath:attributes"],
+        ["xpath=//div[4]/div/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "daffcde7-4984-40ee-a3a1-12c89edfb6a5",
+      "comment": "",
+      "command": "select",
+      "target": "id=files",
+      "targets": [],
+      "value": "label=Java"
+    }, {
+      "id": "25b5d8d5-0fe4-46f1-8a21-e3d90afc65b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=optgroup:nth-child(2) > option:nth-child(2)",
+      "targets": [
+        ["css=optgroup:nth-child(2) > option:nth-child(2)", "css:finder"],
+        ["xpath=(//option[@value='jquery'])[2]", "xpath:attributes"],
+        ["xpath=//select[@id='files']/optgroup[2]/option[2]", "xpath:idRelative"],
+        ["xpath=//optgroup[2]/option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'Java')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92945217-6b5d-4f69-8f98-a310c05320ea",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//*[@id=\"select2-country-container\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7bc4cdb3-5fb4-4a37-bd2b-ebfb8a7b2ce5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[2]/div/div[2]/span/span[1]/span/ul/li[1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fcf94776-e1e3-4f13-9dd4-6d95df6d5794",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//*[@id=\"files\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5121438-488c-454b-861b-bff060923556",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "974a7872-2cad-43f7-9c79-e7afe922cbac",
+    "name": "G_BootstrapDatePicker1",
+    "commands": [{
+      "id": "9aaa21b5-6663-404b-bf03-a33ccac3802e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.seleniumeasy.com/test/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "485ab2e0-35ab-4a35-835a-75a0ce44a6ae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x718",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75a82cd8-8faf-419e-b391-2fc09f4f06be",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Date pickers",
+      "targets": [
+        ["linkText=Date pickers", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(2) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Date pickers')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fe7a2f7-976c-4c39-9497-cb7c5acaa443",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bootstrap Date Picker",
+      "targets": [
+        ["linkText=Bootstrap Date Picker", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Bootstrap Date Picker')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './bootstrap-date-picker-demo.html')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bootstrap Date Picker')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ff3e042-824c-4aa4-8ae7-d76006249274",
+      "comment": "",
+      "command": "click",
+      "target": "css=.date > .form-control",
+      "targets": [
+        ["css=.date > .form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='sandbox-container1']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a4489b0-c01b-46f5-a69d-7e466652ec58",
+      "comment": "",
+      "command": "type",
+      "target": "css=.date > .form-control",
+      "targets": [
+        ["css=.date > .form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='sandbox-container1']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "22/07/2020"
+    }, {
+      "id": "42e9c751-4f5a-482c-a0dd-d8a1d3a8768c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(2) .panel-body",
+      "targets": [
+        ["css=.row:nth-child(2) .panel-body", "css:finder"],
+        ["xpath=//div[2]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08175352-8d73-4297-b270-58b45f1df25c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#datepicker > .form-control:nth-child(1)",
+      "targets": [
+        ["css=#datepicker > .form-control:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='datepicker']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60d90727-7f63-4332-bf65-ae08f32679bc",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=#datepicker > .form-control:nth-child(1)",
+      "targets": [
+        ["css=#datepicker > .form-control:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='datepicker']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bae80fc-94c8-4f6e-bd2b-ab5721d1be2f",
+      "comment": "",
+      "command": "type",
+      "target": "css=#datepicker > .form-control:nth-child(1)",
+      "targets": [
+        ["css=#datepicker > .form-control:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='datepicker']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "22/07/2020"
+    }, {
+      "id": "d94e1ea8-50fe-466b-bedb-4e15ccd9a2c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(3) .panel-body",
+      "targets": [
+        ["css=.row:nth-child(3) .panel-body", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9590939-5be9-4c7a-b9bb-17de028f21f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control:nth-child(3)",
+      "targets": [
+        ["css=.form-control:nth-child(3)", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='datepicker']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "721201c0-385a-4835-a1f1-ee26aaac484f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control:nth-child(3)",
+      "targets": [
+        ["css=.form-control:nth-child(3)", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='datepicker']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4638c372-8371-4a92-bbf3-92d0850a6b74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(3) .panel-body",
+      "targets": [
+        ["css=.row:nth-child(3) .panel-body", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7df7f00b-8fd5-4d0e-99d2-4b9de491b869",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "421ade90-bb46-466d-b09f-d2a27c9c9251",
+    "name": "G_BootstrapDatePicker2",
+    "commands": [{
+      "id": "32324625-987b-46b3-b42d-ac967568e745",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.seleniumeasy.com/test/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc09a2f5-973a-4a1b-8170-7f6151ff70fe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x718",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "083b897a-f100-4598-9acb-86866733b38d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Date pickers",
+      "targets": [
+        ["linkText=Date pickers", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(2) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Date pickers')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "697b0210-06cf-48fd-afe6-00c506a24042",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bootstrap Date Picker",
+      "targets": [
+        ["linkText=Bootstrap Date Picker", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Bootstrap Date Picker')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './bootstrap-date-picker-demo.html')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bootstrap Date Picker')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99f51ce9-ffa0-410c-ab18-e35da4df1b8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.date > .form-control",
+      "targets": [
+        ["css=.date > .form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='sandbox-container1']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fe5f70d-5f18-4cbc-a8a7-a20bcfbf8df0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.today:nth-child(3)",
+      "targets": [
+        ["css=.today:nth-child(3)", "css:finder"],
+        ["xpath=//tr[4]/td[3]", "xpath:position"],
+        ["xpath=//td[contains(.,'22')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1a0a458-0d0e-4ad7-a1a9-1d7f358797f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#datepicker > .form-control:nth-child(1)",
+      "targets": [
+        ["css=#datepicker > .form-control:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='datepicker']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45facf43-d956-4ae4-a996-11325a3758d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > .day:nth-child(4)",
+      "targets": [
+        ["css=tr:nth-child(4) > .day:nth-child(4)", "css:finder"],
+        ["xpath=//tr[4]/td[4]", "xpath:position"],
+        ["xpath=//td[contains(.,'22')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "077986c2-e317-4ed6-9d37-8826567c2093",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control:nth-child(3)",
+      "targets": [
+        ["css=.form-control:nth-child(3)", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='datepicker']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12c5da1e-6882-4870-9cb1-332dea31266d",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) > .day:nth-child(6)",
+      "targets": [
+        ["css=tr:nth-child(5) > .day:nth-child(6)", "css:finder"],
+        ["xpath=//tr[5]/td[6]", "xpath:position"],
+        ["xpath=//td[contains(.,'31')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0728dbcd-c0e3-4c66-bd01-1e6ba6825b17",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-center > .row",
+      "targets": [
+        ["css=.text-center > .row", "css:finder"],
+        ["xpath=//body/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f074207f-46e3-4ae2-9908-8beaaad7f12d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a23297d0-b901-454e-97e1-c90bd8ecdf31",
+    "name": "H_JQueryDatePicker1",
+    "commands": [{
+      "id": "d50f551e-27f9-4bd9-928c-62b603a46983",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.seleniumeasy.com/test/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "725cc908-bebf-4928-95b0-483b4ef85b19",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x718",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d96aa3e-6b0f-4eaf-94b2-fa8625aa3b1d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Date pickers",
+      "targets": [
+        ["linkText=Date pickers", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(2) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Date pickers')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89eee660-afce-4aa7-b75a-a4aeb54ac8a2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=JQuery Date Picker",
+      "targets": [
+        ["linkText=JQuery Date Picker", "linkText"],
+        ["css=.open li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'JQuery Date Picker')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './jquery-date-picker-demo.html')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'JQuery Date Picker')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "550c051f-2eb0-4c8e-8517-741759df5f75",
+      "comment": "",
+      "command": "click",
+      "target": "id=from",
+      "targets": [
+        ["id=from", "id"],
+        ["name=from", "name"],
+        ["css=#from", "css:finder"],
+        ["xpath=//input[@id='from']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a39e1941-430c-4dd9-be52-6cdce8fcb95b",
+      "comment": "",
+      "command": "type",
+      "target": "id=from",
+      "targets": [
+        ["id=from", "id"],
+        ["name=from", "name"],
+        ["css=#from", "css:finder"],
+        ["xpath=//input[@id='from']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "01/03/2020"
+    }, {
+      "id": "7a4d3e3f-cb95-4b95-b22e-821f8d65e171",
+      "comment": "",
+      "command": "click",
+      "target": "id=to",
+      "targets": [
+        ["id=to", "id"],
+        ["name=to", "name"],
+        ["css=#to", "css:finder"],
+        ["xpath=//input[@id='to']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8927902a-f137-4fb3-9506-1e3a2c155120",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3b255bd9-b839-420c-bc84-b8e4991319b4",
+    "name": "H_JQueryDatePicker2",
+    "commands": [{
+      "id": "e16af96d-68f9-465f-a8b8-8dfed2d4bfcd",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.seleniumeasy.com/test/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f26d29c6-1712-4bb5-a0c1-7de0aecd8c35",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x718",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf8fef5b-75e8-4f26-aa4e-2ea8b9b5c1a4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Date pickers",
+      "targets": [
+        ["linkText=Date pickers", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(2) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Date pickers')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7441927a-3165-44e5-b12a-b182d3d169d0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=JQuery Date Picker",
+      "targets": [
+        ["linkText=JQuery Date Picker", "linkText"],
+        ["css=.open li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'JQuery Date Picker')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './jquery-date-picker-demo.html')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'JQuery Date Picker')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73caef33-4920-4c06-9ac5-e367e49a0a87",
+      "comment": "",
+      "command": "click",
+      "target": "id=from",
+      "targets": [
+        ["id=from", "id"],
+        ["name=from", "name"],
+        ["css=#from", "css:finder"],
+        ["xpath=//input[@id='from']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f5385df-a93e-4a94-985f-dbdc6fbdaeed",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=1",
+      "targets": [
+        ["linkText=1", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'1')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr/td[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[16]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9d8b9a9-7593-4238-9fb2-ff955a73313c",
+      "comment": "",
+      "command": "click",
+      "target": "id=to",
+      "targets": [
+        ["id=to", "id"],
+        ["name=to", "name"],
+        ["css=#to", "css:finder"],
+        ["xpath=//input[@id='to']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d83fda7-f5f8-4cba-9c34-bc194ce4869f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=23",
+      "targets": [
+        ["linkText=23", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'23')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[4]/td[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[38]", "xpath:href"],
+        ["xpath=//tr[4]/td[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'23')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e84bd546-8d2c-40b6-8590-486734f94c94",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f259e9ac-f460-44ee-966c-cb008c6b475f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e886841a-4687-48be-a263-b0a918c87e29"]
+  }],
+  "urls": ["https://www.seleniumeasy.com/", "https://www.seleniumeasy.com/test/"],
+  "plugins": []
+}
