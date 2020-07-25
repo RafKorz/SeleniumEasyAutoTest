@@ -1,2 +1,2 @@
 # SeleniumEasyAutoTest
-Test of elements on page seleniumeasy.com in Selenium IDE
+Test automation project of elements on page seleniumeasy.com in Selenium IDE
