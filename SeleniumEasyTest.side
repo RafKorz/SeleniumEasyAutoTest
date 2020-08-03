@@ -2108,6 +2108,594 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "e75aa6ad-9099-4d5b-b57d-7e3c9e981b4f",
+    "name": "I_TablePagination",
+    "commands": [{
+      "id": "d7f728a8-cb34-4486-8781-9f8e0adedf33",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.seleniumeasy.com/test/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3f3c03c-1ca8-4151-87be-c8349a141f19",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1048x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f43d673-c9ec-496a-bf04-40059f67c300",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Table",
+      "targets": [
+        ["linkText=Table", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Table')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1a3f75e-bb29-48a0-9fc5-c2a1b3a321bc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Table Pagination",
+      "targets": [
+        ["linkText=Table Pagination", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Table Pagination')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './table-pagination-demo.html')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Table Pagination')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3c216fb-1dc6-4797-9571-c69bbe23631f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div/ul/li[5]/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bea1166-a136-4985-995f-a1f3c4c71786",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=»",
+      "targets": [
+        ["linkText=»", "linkText"],
+        ["css=.next_link", "css:finder"],
+        ["xpath=//a[contains(text(),'»')]", "xpath:link"],
+        ["xpath=//ul[@id='myPager']/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[20]", "xpath:href"],
+        ["xpath=//div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'»')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e44aeb55-5c06-465f-8dbe-f971a6f5194c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div/ul/li[1]/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab8f1d4f-0587-4b9f-a5fd-6fa6539a83d2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div/ul/li[5]/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c4233b7-4d42-420b-a761-2efa9576a2d8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=»",
+      "targets": [
+        ["linkText=»", "linkText"],
+        ["css=.next_link", "css:finder"],
+        ["xpath=//a[contains(text(),'»')]", "xpath:link"],
+        ["xpath=//ul[@id='myPager']/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[20]", "xpath:href"],
+        ["xpath=//div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'»')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77d5e848-e7af-4aa5-9876-e811e82172f0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div/ul/li[1]/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aebdacbe-9376-4119-a829-88877b4b7b08",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3c3cde71-3554-4414-8678-ce9d79d88a97",
+    "name": "J_TableSortAndSearch",
+    "commands": [{
+      "id": "d4cd5693-0eca-4846-8253-425e3ef7a7ee",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.seleniumeasy.com/test/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78610588-e919-46ea-94d4-3ad6bcdb23dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1048x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aaaddc7f-ddb0-4bf9-8a0a-8c1226b322e8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Table",
+      "targets": [
+        ["linkText=Table", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Table')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e27a080-b0e8-4e9d-89f8-af1d93e6eba7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Table Sort & Search",
+      "targets": [
+        ["linkText=Table Sort & Search", "linkText"],
+        ["css=.open li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Table Sort & Search')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li[3]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './table-sort-search-demo.html')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Table Sort & Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "231cf6d9-eba4-4aca-8f85-a570e2aeccfb",
+      "comment": "",
+      "command": "click",
+      "target": "name=example_length",
+      "targets": [
+        ["name=example_length", "name"],
+        ["css=select", "css:finder"],
+        ["xpath=//select[@name='example_length']", "xpath:attributes"],
+        ["xpath=//div[@id='example_length']/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4a65c56-310c-44b6-a077-bd7c0b4fc530",
+      "comment": "",
+      "command": "select",
+      "target": "name=example_length",
+      "targets": [],
+      "value": "label=25"
+    }, {
+      "id": "17127bda-bba1-452c-b476-8ca232184656",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(2)",
+      "targets": [
+        ["css=option:nth-child(2)", "css:finder"],
+        ["xpath=//option[@value='25']", "xpath:attributes"],
+        ["xpath=//div[@id='example_length']/label/select/option[2]", "xpath:idRelative"],
+        ["xpath=//option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'25')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b62b7c00-25b7-4c57-8cdb-3f2a2fd57c62",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//*[@id=\"example_info\"]",
+      "targets": [],
+      "value": "Showing 1 to 25 of 32 entries"
+    }, {
+      "id": "bcbc42af-ec99-4798-9bb2-74aa36acb2b8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5c5e20d0-3d39-4741-bea1-3047a24e2877",
+    "name": "J_TableSortAndSearch_Record",
+    "commands": [{
+      "id": "176af5f2-9033-468f-80f6-f8d6dc3369bd",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.seleniumeasy.com/test/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "242283a3-42b6-468d-a903-ea58dee3eabd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1048x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9072821e-7477-472a-9c65-2b207ae8e635",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Table",
+      "targets": [
+        ["linkText=Table", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Table')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e363539-8894-4c02-b532-9334a1ac9aa7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Table Sort & Search",
+      "targets": [
+        ["linkText=Table Sort & Search", "linkText"],
+        ["css=.open li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Table Sort & Search')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li[3]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './table-sort-search-demo.html')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Table Sort & Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc9f9353-f1c5-4ee9-8efa-47c95bb89185",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='example_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c70c40d0-408c-4fca-97fa-281f735e9c51",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div/div/table/tbody/tr/td[1]",
+      "targets": [],
+      "value": "A. Cox"
+    }, {
+      "id": "986cca7c-c7d7-43db-a416-e55f769d4200",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div/div/table/tbody/tr/td[2]",
+      "targets": [],
+      "value": "Junior Technical Author"
+    }, {
+      "id": "0d17da82-53ab-40d2-966e-e7f1b22a25e1",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div/div/table/tbody/tr/td[3]",
+      "targets": [],
+      "value": "San Francisco"
+    }, {
+      "id": "73f5f80a-a9cf-45c2-9879-61b5d58195bf",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div/div/table/tbody/tr/td[4]",
+      "targets": [],
+      "value": "66"
+    }, {
+      "id": "0b6c1354-7544-4b34-8867-3f671df0d0db",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div/div/table/tbody/tr/td[5]",
+      "targets": [],
+      "value": "Mon 12th Jan 09"
+    }, {
+      "id": "f9c4d32d-563b-45b0-90e3-f50a8c0e1d81",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div/div/table/tbody/tr/td[6]",
+      "targets": [],
+      "value": "$86,000/y"
+    }, {
+      "id": "00ef4f47-fbef-4467-b9ae-f17c249373bb",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3c820557-39e8-416f-9484-d95593d96a45",
+    "name": "K_Check_ThisWouldBe",
+    "commands": [{
+      "id": "c4164013-fa84-480b-92aa-8df65f90f591",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.seleniumeasy.com/test/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ee0d1a2-7238-426a-a491-9a60f4cf4261",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1046x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e635df0-deda-41f6-a5d1-fc9cf46b39dd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "376693fc-e9fa-48f1-833d-65d57191891a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Simple Form Demo",
+      "targets": [
+        ["linkText=Simple Form Demo", "linkText"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Simple Form Demo')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './basic-first-form-demo.html')]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Simple Form Demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e64fa46-f3c7-4271-952a-b0d083577b57",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ef21ac2-f86c-4672-ae51-104cdfb75a4c",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/h3",
+      "targets": [],
+      "value": "This would be your first example to start with Selenium."
+    }, {
+      "id": "4afda95d-8916-4064-b55c-8ca9afe943c2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Checkbox Demo",
+      "targets": [
+        ["linkText=Checkbox Demo", "linkText"],
+        ["css=.open li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Checkbox Demo')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './basic-checkbox-demo.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Checkbox Demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20d8d352-1678-4c5c-8694-5062cb1cc265",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/h3",
+      "targets": [],
+      "value": "This would be a basic example to start with checkboxes using selenium."
+    }, {
+      "id": "59ebeaa3-c3cb-4940-a25d-e018629ed8e3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c6440ae-992f-4bfb-9178-f3a20eb91235",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Radio Buttons Demo",
+      "targets": [
+        ["linkText=Radio Buttons Demo", "linkText"],
+        ["css=.open li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Radio Buttons Demo')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './basic-radiobutton-demo.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Radio Buttons Demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0600d81-6faf-4176-8369-328e336e82a7",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/h3",
+      "targets": [],
+      "value": "This is again simple example to start working with radio buttons using Selenium."
+    }, {
+      "id": "4705a934-29be-4467-aec9-b55e2f8b7af7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a603ebe-a78c-4a2c-be22-4cdb6e1bccb1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Select Dropdown List",
+      "targets": [
+        ["linkText=Select Dropdown List", "linkText"],
+        ["css=.open li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Select Dropdown List')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './basic-select-dropdown-demo.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Select Dropdown List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "149b5e0e-44ef-4429-94b6-6129b6718d23",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/h3",
+      "targets": [],
+      "value": "This would be your first example on select dropd down list to with Selenium."
+    }, {
+      "id": "5af0673f-6685-40a5-95ab-e74b6de85abe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07321203-bb8d-4f99-a3d7-1b627c5aef45",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Form Submit",
+      "targets": [
+        ["linkText=Input Form Submit", "linkText"],
+        ["css=.open li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Form Submit')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './input-form-demo.html')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Input Form Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96a7d644-b782-4d00-abd0-f40d2b9842af",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/h2",
+      "targets": [],
+      "value": "Input form with validations"
+    }, {
+      "id": "ce50336c-3280-4124-99bd-1032215e6949",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Input Forms",
+      "targets": [
+        ["linkText=Input Forms", "linkText"],
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Input Forms')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ecc6989-3003-460c-bc74-53ae3ee509cd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ajax Form Submit",
+      "targets": [
+        ["linkText=Ajax Form Submit", "linkText"],
+        ["css=.open li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Ajax Form Submit')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './ajax-form-submit-demo.html')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ajax Form Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8091f53e-0192-4fb1-a798-02ce128c0eed",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/h1",
+      "targets": [],
+      "value": "Ajax Form Submit with Loading icon "
+    }, {
+      "id": "5fd3f9ee-06fb-4cdb-8eb6-6ee488dbaa20",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav:nth-child(1) > .dropdown:nth-child(1) .caret",
+      "targets": [
+        ["css=.nav:nth-child(1) > .dropdown:nth-child(1) .caret", "css:finder"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/a/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "350dbf4f-223c-47a7-b336-f1e1554d1132",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=JQuery Select dropdown",
+      "targets": [
+        ["linkText=JQuery Select dropdown", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'JQuery Select dropdown')]", "xpath:link"],
+        ["xpath=//div[@id='navbar-brand-centered']/ul/li/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './jquery-dropdown-search-demo.html')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'JQuery Select dropdown')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc7c5856-f2c9-4dea-9c1f-318dc9b129a2",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[2]/div/div[2]/h2",
+      "targets": [],
+      "value": "Single Select - Search and Select country"
+    }, {
+      "id": "8fe75ebd-03a8-48cf-8fbb-8d9622bcdd47",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "f259e9ac-f460-44ee-966c-cb008c6b475f",
