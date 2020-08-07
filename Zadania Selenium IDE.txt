@@ -1,0 +1,101 @@
+Poniższy plik zawierać będzie 30 testów do wykonania- niektóre zadania będą wymagały stworzenia kilku testów
+(stąd liczba zadań mniejsza od ilości testów)
+-----------------------------------------------------------------------------------------------------------------
+
+1. Stwórz 7 osobnych testów polegających na:
+Wejście w jedną poodstronę z kategorii "Input Forms"
+Sprawdzenie wartości pierwszego tekstu
+np. "This would be your first example to start with Selenium." na podstronie "Simple Form Demo"
+Licznik testów: 7
+-----------------------------------------------------------------------------------------------------------------
+
+2. Na podstronie "Input Forms" -> "Single Form Demo" stwórz dwa testy:
+W sekcji "Single Input Field" podaj swoją wiadomość, kliknij przycisk "Show Message" i zweryfikuj czy wiadomość jest zgodna z wprowadzoną
+W sekcji "Two Input Fields" podaj dwie liczby, kliknij przycisk "Get Total" i zweryfikuj czy suma jest prawidłowa
+Licznik testów: 9
+-----------------------------------------------------------------------------------------------------------------
+
+3. Na podstronie "Input Forms" -> "Checkbox Demo"
+Sprawdź czy wszystkie checkboxy są niewybrane (disabled)
+Zaznacz wszystkie checkboxy pojedynczo
+Sprawdź czy wszystkie checkboxy są wybrane (enabled)
+Licznik testów: 10
+-----------------------------------------------------------------------------------------------------------------
+
+4. Na podstronie "Input Forms" -> "Radio Button Demo"
+Sprawdź czy wszystkie radio buttony są niewybrane (za pomocą przycików pod nimi)
+Zaznacz wszystkie radio buttony
+Sprawdź czy wszystkie radio buttony są wybrane (za pomocą przycików pod nimi)
+Licznik testów: 11
+-----------------------------------------------------------------------------------------------------------------
+
+5. Na podstronie "Input Forms" -> "Select Dropdown List"
+Wybierz z pierwszej listy jakąś wartość (poza domyślną)
+Na drugiej liście zaznacz dowolną wartość i sprawdź jej zwrócenie za pomocą przycisku
+Licznik testów: 12
+-----------------------------------------------------------------------------------------------------------------
+
+6. Na podstronie "Input Forms" -> "Ajax Form Submit"
+Wypełnij obydwa pola
+Wciśnij przycisk "Submit"
+Poczekaj aż tekst potwierdzający wysłanie zotanie wyświetlony
+Sprawdź że przycisk "Submit" zostął schowany (element not visible/ page does not contin element)
+Licznik testów: 13
+-----------------------------------------------------------------------------------------------------------------
+
+Zadanie dodatkowe dla Input Form
+7. Na podstronie "Input Forms" -> "JQuery Select Dropdown"
+Wybierz dowolne wartości ze wszystkich list na podstronie
+Licznik testów: 14
+-----------------------------------------------------------------------------------------------------------------
+
+8. Na podstronie "Date pickers" -> "Bootstrap Date Picker"
+1. Wypełnij datę za pomocą wpisania jej ręcznie z pola w pierwszym oraz drugich polach daty
+2. Wypełnij datę za pomocą wyboru daty z kalendarza w pierwszym polu oraz w drugich polach daty
+Licznik testów: 16
+-----------------------------------------------------------------------------------------------------------------
+
+9. Na podstronie "Date pickers" -> "JQuery Date Picker"
+1. Wypełnij datę za pomocą wpisania jej ręcznie z pola
+2. Wypełnij datę za pomocą wyboru daty z kalendarza
+Licznik testów: 18
+-----------------------------------------------------------------------------------------------------------------
+
+10. Na podstronie "Table" -> "Table pagination"
+Przejdź przez wszystkie 3 strony tabeli sprawdzając czy przyciski next i previous są aktywne i widoczne/niewidoczne:
+1 strona tylko next, 2 previous i next, 3 tylko previous
+Licznik testów: 19
+-----------------------------------------------------------------------------------------------------------------
+
+11. Na podstronie "Table" -> "Table sort and search"
+1. Zmień ilość wyświetlanych rekordów i sprawdź czy tekst "Showing x to x of 32 entries" jest wyświetlany poprawnie
+2. Wyszukaj pojedynczy rekord i sprawdź czy zawartość wszystkich pól jest prawidłowa 
+Licznik testów: 21
+-----------------------------------------------------------------------------------------------------------------
+
+12. Na podstronach każdego typu
+Wejdź w jeden typ formy z każdego typu
+Sprawdzenie wartości pierwszego tekstu
+np. "This would be your first example to start with Selenium." na podstronie "Simple Form Demo"
+Licznik testów: 22
+-----------------------------------------------------------------------------------------------------------------
+
+13. Na podstronie "Progress Bars & Sliders" -> "JQuery Download Progress bars"
+1. Wejdź na podstronę, kliknij download i poczekaj aż pojawi się tekst informujący że pobieranie się skończyło
+2. Przerwij ściąganie i potwierdź że tekst informujący o zakończeniu pobierania nie pojawił się
+Licznik testów: 24
+-----------------------------------------------------------------------------------------------------------------
+
+14. Na podstronie "Alerts & Modals" -> "Bootstrap Alerts"
+Stwórz po jednym teście na każdą parę banerów informacyjnych (Success, warning, danger, info) który będzie sprawdzał:
+1. Całośc tekstu wyświetlonej informacji
+2. Potwierdzenie zniknięcia alertu zarówno w przypadku naciśnięcia przycisku lub odpowiedniej ilości czasu
+Licznik testów: 28
+-----------------------------------------------------------------------------------------------------------------
+
+15. Na podstronie "List Box" -> "JQuery List Box"
+Stwórz po jednym teście na każdą parę przycisków (Add i Remove) który będzie sprawdzał:
+1. Pojawienie się pojedynczej wartości na liście obok
+2. Znieknięcie wszystkich wartości z jednej strony listy (add all/remove all)
+Licznik testów: 30
+-----------------------------------------------------------------------------------------------------------------
